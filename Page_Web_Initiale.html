@@ -10,18 +10,38 @@
 	<body> 	<!-- Corps de la page -->
 
 		<!-- HEADER Titre de la page -->
-		<header>
+		<header class="jumbotron text-center" style="margin-bottom:0" >
 			<h1>Exemple d'utilisation de Bootstrap</h1>
 		</header>
 
 		<!-- MENU PRINCIPAL -->
-		<nav>
-			<a href="#">Accueil</a> - 
-			<a href="#">Cours HTML</a> - 
-			<a href="#">Cours CSS</a> - 
-			<a href="#">Cours PHP</a> - 
-			<a href="#">Cours Javascript</a>
-		</nav>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- Brand -->
+			<a class="navbar-brand" href="#">Accueil</a>
+		  
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Cours HTML</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Cours CSS</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Cours PHP</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Cours Javascript</a>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
 
 		<!-- ZONE PRINCIPALE -->
 		<section>
